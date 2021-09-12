@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Men's Watches | Watch Hunt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.php"><img src="images/logo.png" width="125px"></a>
+                </div>
+                <nav>
+                    <div class="wrapper">
+                        <ul>
+                            <li><a href="index.php">HOME</a></li>
+                            <li><a href="women-products.php">WOMEN</a></li>
+                            <li><a href="men-products.php">MEN</a></li>
+                            <li><a href="AddProduct.php">AddProduct</a></li>
+                            <li><a href="">SALE</a></li>
+                            <li><a href="">ACCOUNT</a></li>
+                            <li><a href="">SIGN UP</a></li>
+                        </ul>
+                        <ul class="search-icon">
+                            <input type="search" placeholder="Search">
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </ul>
+                    </div>
+                    
+                </nav>
+                <a href =""><img src="images/cart1.png" width="50px" height="40px"> </a>
+            </div> 
+        </div>
+
+<!---------- single product-------->
+    <div class="small-container single">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/man5.jpg" width=100%>
+            </div>
+            <div class="col-2">
+                <p> Home / Men's Watches</p>
+                <h1>Kashdun Smart Watch</h1>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <input type="hidden" id="ori_price" value="140">
+                <h3>$<span id="price">140</span></h3></br>
+                <p>Modern minimalism meets distinguished 1950s-style design in this sleek watch furnished with a textured leather strap.
+                </p>
+                <select id="pid" onchange="changePrice();">
+                    <option>Select quantity</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+                <a href="" class="btn">Add to cart</a>
+            </div>
+        </div>
+    </div>    
+<!---------- featured products-------->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/man7.JPG">
+            <h4>Men's Wrist Watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+            </div>
+            <p>$240.00</p>   
+        </div>
+        <div class="col-4">
+            <img src="images/3.jpg">
+            <h4>Men's Wrist Watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+            </div>
+            <p>$280.00</p>   
+        </div>
+        <div class="col-4">
+            <img src="images/woman3.jpg">
+            <h4>Women's Wrist Watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+
+            </div>
+            <p>$275.00</p>   
+        </div>
+        <div class="col-4">
+            <img src="images/woman1.jpg">
+            <h4>Women's Wrist Watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+
+            </div>
+            <p>$230.00</p>   
+        </div>
+    </div>
+</div>
+
+<!---------- Footer -------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Android and iOS</p>
+                    <div class="app-logo">
+                    <!----------Insert image here----------->
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo.png">
+                    <p>Our purpose is to provide quality Wristwatch for those who like to stand out.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>USEFUL LINKS</h3>
+                    <ul>
+                        <li>COUPONS</li>
+                        <li>CONTACT US</li>
+                        <li>SHIPPMENT</li>
+                        <li>FAQ</li>
+                        <li>TERMS</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>SOCIAL MEDIA</h3>
+                    <ul>
+                        <li>Twitter</li>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">© COPYRIGHT WATCH HUNT 2021, All rights reserved.</p>
+        </div>
+    </div>
+
+</body>
+</html>
